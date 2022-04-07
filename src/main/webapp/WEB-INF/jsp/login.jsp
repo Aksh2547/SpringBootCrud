@@ -4,7 +4,7 @@
 </head>
 <body>
 	
-	<form:form method="POST" action="/addProduct">
+	<form:form method="GET" action="/addProduct">
 		<table>
 			<tr>
 				<td><form:label path="id">Id</form:label></td>
