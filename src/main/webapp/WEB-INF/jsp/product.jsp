@@ -22,6 +22,7 @@
 					<th>Quantity</th>
 					<th>UserName</th>
 					<th>Password</th>
+					<th>Action</th>
 				</tr>
 				<c:forEach var="prod" items="${prod}">
 					<tr>
@@ -30,6 +31,9 @@
 						<td>${prod.qty}</td>
 						<td>${prod.username}</td>
 						<td>${prod.password}</td>
+						<td> <a href="/showformupdate/${prod.id }" class="btn btn-primary">update</a>
+							 <a href="/deleteProduct/${prod.id }" class="btn btn-danger">delete</a>	</td>
+						
 					</tr>
 				</c:forEach>
 			</table>

@@ -8,38 +8,12 @@
 <c:url value="/css/main.css" var="jstlCss" />
 <link href="${jstlCss}" rel="stylesheet" />
 <head>
-<%-- <body>
-
-	<table>
-		<tr>
-			<td>ID :</td>
-			<td>${id}</td>
-		</tr>
-		<tr>
-			<td>Name :</td>
-			<td>${name}</td>
-		</tr>
-		<tr>
-			<td>Quantity :</td>
-			<td>${qty}</td>
-		</tr>
-		<tr>
-			<td>UserName :</td>
-			<td>${username}</td>
-		</tr>
-		<tr>
-			<td>Password :</td>
-			<td>${password}</td>
-		</tr>
-
-	</table>
-</body> --%>
-
 <body>
 	<div class="container">
 
 		<div class="starter-template">
 			<h1>Added Product</h1>
+			
 			<table
 				class="table table-striped table-hover table-condensed table-bordered">
 				<tr>
@@ -60,7 +34,7 @@
 
 			</table>
 		</div>
-
+<h2>Record Added Successfully !!!!!!!!</h2>
 	</div>
 
 	<script type="text/javascript"
